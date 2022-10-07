@@ -36,7 +36,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Weapon Properties")
 	USkeletalMeshComponent* WeaponMesh;
-	
+
+	//武器准星相关
 	UPROPERTY(EditAnywhere, Category = Crosshairs)
 	class UTexture2D* CrosshairsCenter;
 
